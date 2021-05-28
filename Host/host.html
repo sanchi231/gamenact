@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Host Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="./css/util.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/modal-video.min.css">
+
+<!--===============================================================================================-->
+</head>
+<body>
+
+    <!-- header -->
+    <div>
+        <header id="main-header">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!-- Site Logo -->
+                    <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="./images/gamelogo.png" width='220' alt="site logo"></a>
+                    <!-- Dropdown Button -->
+                    <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                    <!-- Navigation Links -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../index.html/#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#games">Host</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Login/Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#careers">Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#careers">Community</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#careers">Tournament</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#careers">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header><!-- Header End -->	
+    </div>
+
+    <!-- section main area -->
+    <div class="limiter">
+        <!-- game type -->
+        <div class="tb1row">
+            <div class="tb1col">
+                <h3 class="sub-head-g text-uppercase" >Choose Game</h3>
+            </div>
+            <div class="tbcol1">
+                <select class="select-a gameselectps" placeholder="Select Games">
+                    <option value="1">PUBG</option>
+                    <option value="2">LUDO KING</option>
+                    <option value="3">8 BALL POOL</option>
+                    <option value="4">FREE FIRE</option>
+                    <option value="5">ASPHALT 9</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- tournament type -->
+        <div class="tb1row">
+            <div class="tb1col">
+                <h3 class="sub-head-g text-uppercase" >SELECT TOURNAMENT TYPE</h3>
+            </div>
+            <div class="tbcol1">
+                <select class="select-a gameselectps" placeholder="Select Games">
+                    <option value="1">LINK 1</option>
+                    <option value="2">LINK 2</option>
+                    <option value="3">LINK 3</option>
+                    <option value="4">LINK 4</option>
+                    <option value="5">LINK 5</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- platform -->
+        <div class="tb1row">
+            <div class="tb1col">
+                <h3 class="sub-head-g text-uppercase" >SELECT PLATFORM</h3>
+            </div>
+            <div class="tbcol1">
+                <select class="select-a gameselectps" placeholder="Select Games">
+                    <option value="1">PC</option>
+                    <option value="2">PLAYSTATION4</option>
+                    <option value="3">MOBILE</option>
+                    <option value="4">XBOX ONE</option>
+                    <option value="5">CROSS PLATFORM</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- server -->
+        <div class="tb1row">
+            <div class="tb1col">
+                <h3 class="sub-head-g text-uppercase" >SELECT SERVER</h3>
+            </div>
+            <div class="tbcol1">
+                <select class="select-a gameselectps" placeholder="Select Games">
+                    <option value="1">SERVER 1</option>
+                    <option value="2">SERVER 2</option>
+                    <option value="3">SERVER 3</option>
+                    <option value="4">SERVER 4</option>
+                    <option value="5">SERVER 5</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- GAME CARDS -->
+        <!-- Row 1 -->
+        <div class="container card-container" style="margin-top: 30px">
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+
+                    <a href="#" class="btn btn-primary">Button One</a>
+
+                </div>
+            </div>
+        
+
+       
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+               
+                </div>
+            </div>
+
+
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+
+        <div class="container card-container" style="margin-top: 30px">
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+
+                    <a href="#" class="btn btn-primary">Button One</a>
+
+                </div>
+            </div>
+        
+
+       
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+               
+                </div>
+            </div>
+
+
+            <div class="card">
+                <!-- card-img-top - is used for image inside card  -->
+                <img class="card-img-top" src="https://placeimg.com/640/480/nature" alt="Card header image">
+                <div class="card-body">
+                    <!-- card-title - is used for card title  -->
+                    <!-- card-text - is used for card paragraph or any text -->
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Lorem ipsum dolor</p>
+                
+
+                <!-- list-group - is gonna create a list group -->
+                <!-- list-group-flush - is gonna remove all the extra margins  -->
+                <!-- <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item One</li>
+                    <li class="list-group-item">Item Two</li>
+                    <li class="list-group-item">Item Three</li>
+                </ul> -->
+                <!-- List group -->
+            
+                    <a href="#" class="btn btn-primary">Button One</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2 ends -->
+
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sint deserunt incidunt optio reiciendis alias eos expedita neque adipisci corrupti qui perferendis accusantium ab, quos praesentium doloribus hic nobis quia cumque excepturi delectus eveniet! Nam quae blanditiis eos quam, est temporibus rem veniam ullam omnis praesentium eveniet magni dolore, accusamus corporis dolores architecto maiores. Neque nisi doloribus, soluta culpa consequuntur mollitia itaque hic magnam inventore dolorem a tenetur est, tempore voluptatem labore reiciendis atque aut nobis veniam incidunt doloremque laudantium impedit vitae. Neque error corporis nostrum sed? Assumenda a laudantium dolor? Repudiandae praesentium labore atque! Dignissimos debitis asperiores veniam delectus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem sint veniam dolorum voluptatum hic, magni consectetur cum obcaecati ducimus architecto nesciunt, nulla perferendis sunt facere. Sapiente illum nisi rem error dolore provident in expedita doloremque quidem, numquam neque vel fuga aperiam quas veniam labore assumenda, iste ratione iusto blanditiis reiciendis eum explicabo sequi! Optio assumenda fugit nemo eum animi sapiente in velit est commodi quasi rem labore dolores architecto neque deleniti laborum soluta nulla, molestiae hic dolor tenetur eos molestias. Facere enim facilis eum ut odit placeat aperiam velit vitae, pariatur tenetur aspernatur eveniet necessitatibus dolorum rem minus deserunt maiores sapiente amet veritatis perspiciatis dolores? Provident ab cumque aspernatur quos praesentium esse repellat, architecto eos. Explicabo quae eius labore accusamus reprehenderit quisquam eligendi in. Praesentium enim alias perferendis, dolore nobis libero ipsa vero animi nostrum aspernatur quibusdam nisi reiciendis repudiandae rem vel fugit? Hic rerum quis blanditiis corporis minus, dolorem, vel harum amet excepturi numquam doloremque! Beatae, nesciunt officia unde laborum, est iure error sed voluptatem quia quam excepturi rem quisquam. Accusamus autem fugiat officia dolores, qui nam, voluptatem deleniti, itaque alias consequatur in numquam sequi sunt rerum reprehenderit quaerat suscipit nobis. Debitis dolorum porro saepe rerum eos officia incidunt nihil iure beatae nostrum cum blanditiis illum dolore est, explicabo nobis recusandae iste cupiditate quam similique at molestias. Quae ipsam alias dolor a neque voluptates maxime temporibus, ex aliquid labore doloremque possimus eius qui eum quis libero quasi laboriosam aliquam ipsa vel unde, voluptatibus voluptatem ratione sint? Velit, officiis! Sequi odit provident aliquid accusantium consequuntur earum nostrum ducimus. Explicabo et eum repellendus aliquam, voluptate iste laborum repellat neque blanditiis aperiam, molestiae quos officiis distinctio omnis architecto eligendi placeat dignissimos, saepe aspernatur sequi quasi numquam. Esse autem, totam consequuntur facilis, sapiente dolore consectetur reprehenderit ullam quis asperiores quam explicabo. Repellendus eum unde repellat deleniti dolorem maxime enim hic ipsum rem natus, cum dolor ullam voluptates minus itaque architecto illum ratione corrupti sunt neque reprehenderit ipsam. Natus itaque doloremque saepe ex asperiores deserunt facilis, minus voluptatem laboriosam soluta dignissimos quae at perspiciatis. Debitis id totam amet quas perferendis nam molestiae neque voluptatibus ipsum ratione placeat quae, vero autem maiores deserunt doloremque a dolorum commodi. Accusamus, nesciunt doloribus qui veniam quia molestias nam culpa officiis rem quasi placeat maxime quos, numquam sunt itaque ipsam. Accusantium, adipisci possimus, ratione similique voluptatum quibusdam tenetur maxime saepe corporis pariatur repudiandae voluptas iste nihil corrupti libero.
+        </p>
+
+        <!-- <section>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae fugiat similique praesentium aliquid, totam voluptatum minus dignissimos? Laudantium possimus, repellendus officiis quam officia id deleniti! Iusto sed aliquam excepturi quaerat. Optio molestias quod maxime vitae deleniti dolores ratione atque magni corporis modi facere quia in dolore fugit repellat corrupti itaque quis quasi, sint natus dolor sapiente. Sunt provident accusamus labore pariatur dicta? Temporibus distinctio, natus neque accusantium iure quas? Laboriosam molestias rem itaque porro aut error doloremque aperiam facere non, cum eos voluptas, quasi consequuntur, quod asperiores labore nostrum beatae earum. Libero nisi expedita quas suscipit, obcaecati temporibus cum, esse magnam odit hic pariatur rem! Quo quos fugiat quidem, mollitia impedit nostrum aspernatur dicta debitis aliquam porro hic in quas est iusto veritatis minus sed voluptate natus voluptatum iste modi tempora laudantium! Nobis odit repellat enim eveniet facere adipisci culpa id nesciunt velit laudantium at eligendi, dolor non nostrum animi? Incidunt ad, suscipit tenetur, nulla laborum soluta eius omnis odio ex, voluptates quidem recusandae rem dignissimos hic sequi nesciunt repudiandae delectus reprehenderit minima sapiente dolor tempora doloremque. Eveniet repellendus quibusdam in at. Voluptate dolorem ab cupiditate maxime reiciendis animi, explicabo ipsa, similique quia ea atque neque error est ratione facere autem sint cum accusantium suscipit amet nisi incidunt. Tempore aliquam minima aperiam. Dolorum, neque soluta? Suscipit laudantium corporis est non assumenda, exercitationem expedita vel dolorem hic dolore aspernatur voluptate possimus explicabo neque eaque quis velit eveniet sequi perspiciatis pariatur quaerat. Ex fugit odio impedit, veritatis aspernatur nemo in, error mollitia corrupti eligendi consectetur beatae quisquam ipsum, obcaecati ratione! Sed officiis reprehenderit laborum quo porro facilis quod saepe ipsam modi quisquam, pariatur quae deleniti incidunt deserunt sit velit aut omnis odio corporis est eius similique odit sint neque? Velit esse magni dolor mollitia odio doloremque nisi voluptates optio praesentium deserunt.
+                </p>
+            </div>
+        </section> -->
+    </div>
+	<!-- /// FOOTER /// -->
+    <footer id="main-footer">
+        <div id="footer"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="copyright">&copy; GameNact <span id="date"> </span></p><!-- Copyright Text -->
+                        <ul class="social-links"> <!-- Social Media Icons -->
+                            <li><a href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-lg icon-social"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-lg icon-social"></i></a>
+                            <li><a href="#"><i class="fa fa-pinterest fa-lg icon-social"></i></a>
+                            <li><a href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- Container End -->
+        </div>
+    </footer><!-- Footer End -->
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

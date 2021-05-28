@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+html, body, div {
+	margin: 0px; 
+	padding: 0px; 
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+
+}
+
+/* =============main section =============================*/
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;
+  /* background-color: rgb(88, 86, 86); */
+  background-color: #111;
+  /* background-image: linear-gradient(250deg, red, rgb(21, 21, 161)); */
+  color: #fff;
+  
+}
+
+/* =============CHOOSE GAME================== */
+.tb1row {
+ 
+  box-sizing: border-box;
+  /* border: white solid 2px; */
+  padding-left: 30%;
+  
+  display: flex;
+  margin: 0 0 10px 0;
+}
+
+/* heading before drop down box */
+.sub-head-g {
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.12rem;
+  padding: 7px 20px;
+  font-size: 20px;
+  height: 25px;
+  margin: 8px 2px 5px 2px;
+
+}
+
+/* drop-down box */
+.select-a {
+  margin: 7px 0 7px 0;
+  font-size: 20px;
+  font-family: "Nova Square", cursive;
+  width: 250px;
+  border-radius: 5%;
+  border: white 2px solid;
+  background-color: #000;
+  color: #fff;
+
+}
+
+.select-a:hover {
+}
+
+@media screen and (min-device-width: 992px) {
+.tblcol {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+/*---------------------------------------------*/
+
+
+p {
+	font-family: sans-serif;
+  	font-size: 14px;
+	line-height: 1.7;
+	color: #fff;
+	margin: 0px;
+}
+
+/* game cards */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  max-width: 1400px; 
+}
+
+.card {
+  /* height: 60vh; */
+
+  width: 25%;
+  margin: 10px 20px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.card-text {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400px; 
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: red;
+  color: #fff;
+  border: red 1px solid;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+    color: #fff;
+}
